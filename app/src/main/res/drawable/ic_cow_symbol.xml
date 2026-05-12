@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Cow Head Base -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M30,40 Q30,30 50,30 Q70,30 70,40 L70,60 Q70,80 50,80 Q30,80 30,60 Z" />
+    <!-- Snout -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M35,65 Q35,55 50,55 Q65,55 65,65 L65,70 Q65,80 50,80 Q35,80 35,70 Z" />
+    <!-- Nostrils -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M42,70 A2,2 0 1,1 46,70 A2,2 0 1,1 42,70 M54,70 A2,2 0 1,1 58,70 A2,2 0 1,1 54,70" />
+    <!-- Horns -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M30,40 L20,30 Q15,25 25,25 L35,35 Z M70,40 L80,30 Q85,25 75,25 L65,35 Z" />
+    <!-- Ears -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M30,45 L15,45 Q10,45 15,55 L30,55 Z M70,45 L85,45 Q90,45 85,55 L70,55 Z" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,45 A3,3 0 1,1 46,45 A3,3 0 1,1 40,45 M54,45 A3,3 0 1,1 60,45 A3,3 0 1,1 54,45" />
+</vector>
